@@ -1,0 +1,39 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --color-ink: #0a0a0a;
+  --color-panel: #141414;
+  --color-line: #262626;
+  --color-muted: #a3a3a3;
+  --color-paper: #fafafa;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  @apply bg-ink text-paper font-sans antialiased;
+}
+
+::selection {
+  @apply bg-paper text-ink;
+}
+
+/* Listras preto e branco discretas, inspiradas no manto do Galo */
+.stripes {
+  background-image: repeating-linear-gradient(
+    90deg,
+    rgb(255 255 255 / 0.035) 0 48px,
+    transparent 48px 96px
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

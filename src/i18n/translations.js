@@ -1,0 +1,98 @@
+export const translations = {
+  pt: {
+    nav: { about: 'Sobre Mim', projects: 'Projetos', experience: 'Experiências', contact: 'Contato' },
+    hero: {
+      greeting: 'Olá, eu sou',
+      role: 'Desenvolvedor · Engenharia de Software @ PUC Minas',
+      cta: 'Ver projetos',
+      contact: 'Fale comigo',
+    },
+    about: {
+      title: 'Sobre Mim',
+      paragraphs: [
+        'Olá! Meu nome é Renan, tenho 22 anos e sou estudante de Engenharia de Software na PUC Minas.',
+        'Sou apaixonado por tecnologia e desenvolvimento de software, e estou sempre buscando aprender novas ferramentas e aprimorar minhas habilidades, especialmente na área de Front-end.',
+        'Meu objetivo é crescer como desenvolvedor, construindo interfaces bonitas, acessíveis e performáticas que resolvam problemas reais.',
+        'Fora do mundo da tecnologia, gosto bastante de jogar e sou torcedor apaixonado pelo Galo!',
+      ],
+      facts: [
+        { label: 'Formação', value: 'Engenharia de Software — PUC Minas' },
+        { label: 'Área', value: 'Desenvolvimento de Software' },
+        { label: 'Interesses', value: 'Games, Galo e novas tecnologias' },
+      ],
+      skills: 'Habilidades',
+    },
+    projects: {
+      title: 'Projetos',
+      subtitle: 'Linha do tempo, do mais antigo ao mais recente.',
+      repo: 'Repositório',
+    },
+    experience: {
+      title: 'Experiências',
+      subtitle: 'Onde já trabalhei e estudei.',
+      current: 'Atual',
+    },
+    contact: {
+      title: 'Contato',
+      subtitle: 'Quer conversar sobre um projeto ou oportunidade? Me mande uma mensagem!',
+      name: 'Nome',
+      email: 'E-mail',
+      message: 'Mensagem',
+      send: 'Enviar mensagem',
+      sending: 'Enviando...',
+      success: 'Mensagem enviada! Obrigado, responderei em breve.',
+      error: 'Não foi possível enviar agora. Tente novamente ou use um dos canais ao lado.',
+      required: 'Campo obrigatório',
+      invalidEmail: 'E-mail inválido',
+      minMessage: 'A mensagem deve ter pelo menos 10 caracteres',
+    },
+  },
+  en: {
+    nav: { about: 'About Me', projects: 'Projects', experience: 'Experience', contact: 'Contact' },
+    hero: {
+      greeting: "Hi, I'm",
+      role: 'Developer · Software Engineering @ PUC Minas',
+      cta: 'See projects',
+      contact: 'Get in touch',
+    },
+    about: {
+      title: 'About Me',
+      paragraphs: [
+        "Hi! My name is Renan, I'm 22 years old and I study Software Engineering at PUC Minas, in Brazil.",
+        "I'm passionate about technology and software development, and I'm always looking to learn new tools and improve my skills, especially in Front-end development.",
+        'My goal is to grow as a developer, building beautiful, accessible and fast interfaces that solve real problems.',
+        "Outside of tech, I love playing video games and I'm a passionate supporter of Atlético Mineiro, the Galo! 🐓",
+      ],
+      facts: [
+        { label: 'Education', value: 'Software Engineering — PUC Minas' },
+        { label: 'Field', value: 'Software Development' },
+        { label: 'Interests', value: 'Games, Galo and new technologies' },
+      ],
+      skills: 'Skills',
+    },
+    projects: {
+      title: 'Projects',
+      subtitle: 'A timeline, from the oldest to the most recent.',
+      repo: 'Repository',
+    },
+    experience: {
+      title: 'Experience',
+      subtitle: "Where I've worked and studied.",
+      current: 'Current',
+    },
+    contact: {
+      title: 'Contact',
+      subtitle: "Want to talk about a project or an opportunity? Send me a message!",
+      name: 'Name',
+      email: 'E-mail',
+      message: 'Message',
+      send: 'Send message',
+      sending: 'Sending...',
+      success: "Message sent! Thanks, I'll get back to you soon.",
+      error: "Couldn't send right now. Please try again or use one of the channels beside.",
+      required: 'Required field',
+      invalidEmail: 'Invalid e-mail',
+      minMessage: 'Message must be at least 10 characters long',
+    },
+  },
+}
