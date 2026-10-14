@@ -48,7 +48,7 @@
 ---
 
 ## 🔗 Links Úteis
-* **Demo Online:** [Acesse o Portfólio](https://renan-portfolio.vercel.app)
+* **Demo Online:** [Acesse o Portfólio](https://renan-rocha-portfolio.vercel.app)
   > **Descrição:** Aplicação em produção hospedada gratuitamente na **Vercel**.
 * **Repositório:** [github.com/renan3098/portfolio](https://github.com/renan3098/portfolio)
 
