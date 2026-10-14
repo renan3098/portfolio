@@ -1,5 +1,4 @@
 // Experiências do mais recente para o mais antigo.
-// Ajuste os períodos (`period`) com as datas reais.
 export const experiences = [
   {
     company: 'VTurb',
