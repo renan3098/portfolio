@@ -37,7 +37,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <a href="#top" className="font-mono text-lg font-semibold">
-          renan<span className="text-muted">.dev</span>
+          renan<span className="text-muted">.rocha</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
