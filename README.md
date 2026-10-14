@@ -1,7 +1,7 @@
 # Portfólio — Renan Rocha
 
 > [!NOTE]
-> Website de portfólio pessoal, **bilíngue (PT/EN) e responsivo**, que apresenta minha trajetória, projetos, experiências e formas de contato — com **formulário que envia e-mail direto do front-end**.
+> Website de portfólio pessoal, que apresenta minha trajetória, projetos, experiências e formas de contato.
 
 <table>
   <tr>
